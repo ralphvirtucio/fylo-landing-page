@@ -14,7 +14,7 @@
 
     <title>Frontend Mentor | Fylo landing page with two column layout</title>
 
-    <link rel="stylesheet" href="/css/index.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body>
     <nav class="fylo-nav">
@@ -23,27 +23,39 @@
       </div>
       <ul class="fylo-nav__links">
         <li>
-          <p>Features</p>
+          <a href="#">Features</a>
         </li>
         <li>
-          <p>Team</p>
+          <a href="#">Team</a>
         </li>
         <li>
-          <p>Sign In</p>
+          <a href="#">Sign In</a>
         </li>
       </ul>
     </nav>
 
     <main>
-      <section class="fylo-main__container">
-        <h1 class="fylo-main__heading">
-          All your files in one secure location, accessible anywhere.
-        </h1>
-        <p class="fylo-main__description">
-          Fylo stores your most important files in one secure location. Access
-          them wherever you need, share and collaborate with friends, family,
-          and co-workers.
-        </p>
+      <section class="fylo-main">
+        <div class="fylo-main__intro">
+          <h1 class="fylo-main__heading">
+            All your files in one secure location, accessible anywhere.
+          </h1>
+          <p class="fylo-main__description">
+            Fylo stores your most important files in one secure location. Access
+            them wherever you need, share and collaborate with friends, family,
+            and co-workers.
+          </p>
+
+          <div class="fylo-main__registration">
+            <input type="text" placeholder="Enter your Email..." />
+            <button>Get Started</button>
+          </div>
+        </div>
+        <img
+          src="/images/illustration-1.svg"
+          alt="People pulling out documents"
+          class="fylo-illustration-1"
+        />
       </section>
     </main>
     <!-- 

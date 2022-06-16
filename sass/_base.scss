@@ -26,17 +26,6 @@ $font-stack-body: 'Open Sans', sans-serif;
 $font-weight-400: 400;
 $font-weight-700: 700;
 
-.fylo-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1.8rem 3rem 0 3rem;
-
-  &__links {
-    display: flex;
-    gap: 3rem;
-    list-style: none;
-    font-family: $font-stack-heading;
-    color: $prmry-color-2;
-  }
+body {
+  padding: 0 3.5rem;
 }

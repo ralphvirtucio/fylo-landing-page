@@ -1,0 +1,43 @@
+.fylo-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 0 10rem 0;
+
+  &__links {
+    display: flex;
+    gap: 5rem;
+    list-style: none;
+  }
+}
+
+.fylo-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__intro {
+    flex: 0 0 35%;
+  }
+
+  &__heading {
+    font-family: $font-stack-heading;
+    font-size: 2.5rem;
+  }
+
+  &__description {
+    font-family: $font-stack-body;
+  }
+
+  &__registration {
+    display: flex;
+    gap: 1rem;
+    input {
+      width: 20%;
+      padding: 1rem 1rem 0.6rem 1rem;
+    }
+  }
+  .fylo-illustration-1 {
+    flex: 0 0 0;
+  }
+}

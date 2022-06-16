@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap");
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0 3.5rem;
+}
+
+.fylo-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 0 10rem 0;
+}
+.fylo-nav__links {
+  display: flex;
+  gap: 5rem;
+  list-style: none;
+}
+
+.fylo-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fylo-main__intro {
+  flex: 0 0 35%;
+}
+.fylo-main__heading {
+  font-family: "Raleway", sans-serif;
+  font-size: 2.5rem;
+}
+.fylo-main__description {
+  font-family: "Open Sans", sans-serif;
+}
+.fylo-main__registration {
+  display: flex;
+  gap: 1rem;
+}
+.fylo-main__registration input {
+  width: 20%;
+  padding: 1rem 1rem 0.6rem 1rem;
+}
+.fylo-main .fylo-illustration-1 {
+  flex: 0 0 0;
+}
+
+.fylo-main__registration input {
+  outline: none;
+}
+.fylo-main__registration input:focus {
+  outline: #7c7a84;
+}
+.fylo-main__registration button {
+  width: 10%;
+  padding: 0.6rem 1rem;
+  color: #fff;
+  background-color: hsl(224deg, 93%, 58%);
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 1rem 1rem 0rem rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.fylo-nav__links {
+  font-family: "Raleway", sans-serif;
+  color: hsl(238deg, 22%, 44%);
+}
+.fylo-nav__links a {
+  text-decoration: none;
+}
+
+.fylo-main__registration input {
+  font-family: "Raleway", sans-serif;
+}
+
+/*# sourceMappingURL=styles.css.map */

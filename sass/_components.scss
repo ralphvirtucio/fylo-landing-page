@@ -1,0 +1,19 @@
+.fylo-main__registration {
+  input {
+    outline: none;
+
+    &:focus {
+      outline: #7c7a84;
+    }
+  }
+  button {
+    width: 10%;
+    padding: 0.6rem 1rem;
+    color: #fff;
+    background-color: $accent-color-1;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 1rem 1rem 0rem rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+}
