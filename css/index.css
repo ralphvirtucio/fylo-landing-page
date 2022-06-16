@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap");
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.fylo-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.8rem 3rem 0 3rem;
+}
+.fylo-nav__links {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+  font-family: "Raleway", sans-serif;
+  color: hsl(238deg, 22%, 44%);
+}
+
+/*# sourceMappingURL=index.css.map */
