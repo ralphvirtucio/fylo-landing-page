@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3rem 0 5rem 0;
+  padding: 3rem 0 4rem 0;
 
   &__links {
     display: flex;
@@ -13,30 +13,30 @@
 
 .fylo-main {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 2rem;
+  padding-bottom: 20rem;
 
   &__intro {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
-    width: 100%;
+    justify-content: center;
   }
 
   &__heading {
     font-family: $font-stack-heading;
     font-size: 2.5rem;
+    line-height: 1.5;
     margin-bottom: 0.5rem;
   }
 
   &__description {
     font-family: $font-stack-body;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
   }
 
   &__registration {
     display: flex;
-
+    gap: 1rem;
     gap: 1rem;
     input {
       width: 40%;
@@ -46,10 +46,26 @@
 
   &__illustration-container {
     display: flex;
+    justify-content: center;
     flex: 0 0 50%;
   }
 
   .fylo-illustration-1 {
-    width: 100%;
+    width: 85%;
+  }
+}
+
+.fylo-features {
+  display: flex;
+  background-image: url('images/bg-curve-desktop.svg');
+
+  &__illustration-container {
+    display: flex;
+    justify-content: center;
+    flex: 0 0 50%;
+
+    img {
+      width: 85%;
+    }
   }
 }
