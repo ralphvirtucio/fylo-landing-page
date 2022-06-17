@@ -14,30 +14,60 @@ header {
 .fylo-container {
   display: flex;
   padding: 3rem 3rem 10rem 3rem;
-  // gap: 5rem;
-
-  .fylo-intro {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 6rem;
-    flex: 1;
-
-    &__heading {
-      margin-bottom: 1rem;
-    }
-
-    &__content {
-      margin-bottom: 2rem;
-    }
-  }
 
   &__illustration {
     display: flex;
     justify-content: center;
-
+    width: 50%;
     img {
-      width: 70%;
+      width: 100%;
     }
   }
+}
+.second {
+  background-color: $neu-color-1;
+  clip-path: ellipse(90% 70% at 50% 70%);
+  padding: 10rem 3rem 10rem 3rem;
+}
+
+.fylo-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 6rem;
+  width: 50%;
+
+  &__heading {
+    margin-bottom: 1rem;
+  }
+
+  &__content {
+    margin-bottom: 2rem;
+  }
+}
+
+.fylo-features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+
+  &__heading {
+    margin-bottom: 1rem;
+  }
+
+  &__content {
+    margin-bottom: 1rem;
+
+    &-1 {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+.fylo-testimonials {
+  display: flex;
+  flex-direction: column;
+  color: $prmry-color-1;
+  margin: 2rem 0 0 0;
 }

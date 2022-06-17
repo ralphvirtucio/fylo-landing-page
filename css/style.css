@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap");
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+}
+header .fylo-nav__links {
+  display: flex;
+  gap: 5rem;
+  padding-right: 2rem;
+}
+
+.fylo-container {
+  display: flex;
+  padding: 3rem 3rem 10rem 3rem;
+}
+.fylo-container .fylo-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 6rem;
+  flex: 1;
+}
+.fylo-container .fylo-intro__heading {
+  margin-bottom: 1rem;
+}
+.fylo-container .fylo-intro__features {
+  margin-bottom: 2rem;
+}
+.fylo-container__illustration {
+  display: flex;
+  justify-content: center;
+}
+.fylo-container__illustration img {
+  width: 70%;
+}
+
+.fylo-intro__cta {
+  display: flex;
+  gap: 0.5rem;
+}
+.fylo-intro__cta-input {
+  padding: 1rem 3rem 0.7rem 1rem;
+  outline: none;
+  flex: 0 0 50%;
+}
+.fylo-intro__cta-button {
+  background-color: hsl(224deg, 93%, 58%);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 0 6rem;
+  cursor: pointer;
+  box-shadow: 0.5rem 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.fylo-nav__links a {
+  font-family: "Raleway", sans-serif;
+  color: hsl(243deg, 87%, 12%);
+}
+
+.fylo-intro__heading {
+  font-family: "Raleway", sans-serif;
+  font-size: 2.5rem;
+  color: hsl(243deg, 87%, 12%);
+}
+
+.fylo-intro__content {
+  color: blue;
+}
+
+.fylo-intro__cta-input {
+  font-family: "Raleway", sans-serif;
+}
+.fylo-intro__cta-button {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=style.css.map */

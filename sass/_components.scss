@@ -18,3 +18,53 @@
     box-shadow: 0.5rem 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
   }
 }
+
+.fylo-features {
+  &__content-link {
+    a {
+      color: $accent-color-2;
+      font-family: $font-stack-body;
+      position: relative;
+
+      &::after {
+        content: '';
+        background-color: $accent-color-2;
+        width: 100%;
+        position: absolute;
+        height: 1px;
+        top: 25px;
+        right: 0;
+      }
+    }
+  }
+}
+
+.fylo-testimonials {
+  background-color: $neu-color-1;
+  box-shadow: -1px 1px 14px rgba(0, 0, 0, 0.1);
+  max-width: 35rem;
+  padding: 1rem 1rem;
+
+  border-radius: 8px;
+  blockquote {
+    margin-bottom: 1rem;
+  }
+
+  &__profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    img {
+      width: auto;
+      border-radius: 50%;
+      height: 3rem;
+    }
+
+    &-info {
+      display: flex;
+      flex-direction: column;
+      gap: 0.2rem;
+    }
+  }
+}

@@ -13,6 +13,7 @@
 
 .fylo-intro__content {
   font-family: $font-stack-body;
+  line-height: 1.5;
 }
 
 .fylo-intro__cta {
@@ -24,5 +25,42 @@
     font-family: $font-stack-heading;
     font-size: 0.8rem;
     font-weight: 700;
+  }
+}
+
+.fylo-features {
+  &__heading {
+    font-family: $font-stack-heading;
+    font-size: 2.5rem;
+    color: $prmry-color-1;
+  }
+
+  &__content {
+    p {
+      font-family: $font-stack-body;
+      line-height: 1.5;
+      max-width: 60ch;
+    }
+  }
+}
+
+.fylo-testimonials {
+  blockquote {
+    font-family: $font-stack-body;
+    font-size: 0.8rem;
+    line-height: 2;
+  }
+
+  &__profile-info {
+    font-family: $font-stack-heading;
+
+    &-name {
+      font-size: 1rem;
+      font-weight: 700;
+    }
+
+    &-position {
+      font-size: 0.8rem;
+    }
   }
 }
