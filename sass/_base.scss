@@ -12,6 +12,16 @@ html {
   box-sizing: inherit;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
 $prmry-color-1: hsl(243, 87%, 12%);
 $prmry-color-2: hsl(238, 22%, 44%);
 
@@ -25,7 +35,3 @@ $font-stack-heading: 'Raleway', sans-serif;
 $font-stack-body: 'Open Sans', sans-serif;
 $font-weight-400: 400;
 $font-weight-700: 700;
-
-body {
-  padding: 0 3.5rem;
-}

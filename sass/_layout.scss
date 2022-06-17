@@ -1,71 +1,43 @@
-.fylo-nav {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3rem 0 4rem 0;
+  padding: 3rem;
 
-  &__links {
+  .fylo-nav__links {
     display: flex;
     gap: 5rem;
-    list-style: none;
+    padding-right: 2rem;
   }
 }
 
-.fylo-main {
+.fylo-container {
   display: flex;
-  padding-bottom: 20rem;
+  padding: 3rem 3rem 10rem 3rem;
+  // gap: 5rem;
 
-  &__intro {
+  .fylo-intro {
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
+    margin-bottom: 6rem;
+    flex: 1;
 
-  &__heading {
-    font-family: $font-stack-heading;
-    font-size: 2.5rem;
-    line-height: 1.5;
-    margin-bottom: 0.5rem;
-  }
+    &__heading {
+      margin-bottom: 1rem;
+    }
 
-  &__description {
-    font-family: $font-stack-body;
-    line-height: 1.5;
-    margin-bottom: 1.5rem;
-  }
-
-  &__registration {
-    display: flex;
-    gap: 1rem;
-    gap: 1rem;
-    input {
-      width: 40%;
-      padding: 1rem 1rem 0.6rem 1rem;
+    &__content {
+      margin-bottom: 2rem;
     }
   }
 
-  &__illustration-container {
+  &__illustration {
     display: flex;
     justify-content: center;
-    flex: 0 0 50%;
-  }
-
-  .fylo-illustration-1 {
-    width: 85%;
-  }
-}
-
-.fylo-features {
-  display: flex;
-  background-image: url('images/bg-curve-desktop.svg');
-
-  &__illustration-container {
-    display: flex;
-    justify-content: center;
-    flex: 0 0 50%;
 
     img {
-      width: 85%;
+      width: 70%;
     }
   }
 }

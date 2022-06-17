@@ -1,19 +1,20 @@
-.fylo-main__registration {
-  input {
-    outline: none;
+.fylo-intro__cta {
+  display: flex;
+  gap: 0.5rem;
 
-    &:focus {
-      outline: #7c7a84;
-    }
+  &-input {
+    padding: 1rem 3rem 0.7rem 1rem;
+    outline: none;
+    flex: 0 0 50%;
   }
-  button {
-    width: 30%;
-    padding: 0.6rem 1rem;
-    color: #fff;
+
+  &-button {
     background-color: $accent-color-1;
     border: none;
-    border-radius: 3px;
-    box-shadow: 0 1rem 1rem 0rem rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    color: #fff;
+    padding: 0 6rem;
     cursor: pointer;
+    box-shadow: 0.5rem 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
   }
 }

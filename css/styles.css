@@ -11,100 +11,94 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  padding: 0 3.5rem;
-}
-
-.fylo-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 3rem 0 4rem 0;
-}
-.fylo-nav__links {
-  display: flex;
-  gap: 5rem;
+ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-.fylo-main {
-  display: flex;
-  padding-bottom: 20rem;
-}
-.fylo-main__intro {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.fylo-main__heading {
-  font-family: "Raleway", sans-serif;
-  font-size: 2.5rem;
-  line-height: 1.5;
-  margin-bottom: 0.5rem;
-}
-.fylo-main__description {
-  font-family: "Open Sans", sans-serif;
-  line-height: 1.5;
-  margin-bottom: 1.5rem;
-}
-.fylo-main__registration {
-  display: flex;
-  gap: 1rem;
-  gap: 1rem;
-}
-.fylo-main__registration input {
-  width: 40%;
-  padding: 1rem 1rem 0.6rem 1rem;
-}
-.fylo-main__illustration-container {
-  display: flex;
-  justify-content: center;
-  flex: 0 0 50%;
-}
-.fylo-main .fylo-illustration-1 {
-  width: 85%;
-}
-
-.fylo-features {
-  display: flex;
-  background-image: url("images/bg-curve-desktop.svg");
-}
-.fylo-features__illustration-container {
-  display: flex;
-  justify-content: center;
-  flex: 0 0 50%;
-}
-.fylo-features__illustration-container img {
-  width: 85%;
-}
-
-.fylo-main__registration input {
-  outline: none;
-}
-.fylo-main__registration input:focus {
-  outline: #7c7a84;
-}
-.fylo-main__registration button {
-  width: 30%;
-  padding: 0.6rem 1rem;
-  color: #fff;
-  background-color: hsl(224deg, 93%, 58%);
-  border: none;
-  border-radius: 3px;
-  box-shadow: 0 1rem 1rem 0rem rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-}
-
-.fylo-nav__links {
-  font-family: "Raleway", sans-serif;
-  color: hsl(238deg, 22%, 44%);
-}
-.fylo-nav__links a {
+a {
   text-decoration: none;
 }
 
-.fylo-main__registration input {
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+}
+header .fylo-nav__links {
+  display: flex;
+  gap: 5rem;
+  padding-right: 2rem;
+}
+
+.fylo-container {
+  display: flex;
+  padding: 3rem 3rem 10rem 3rem;
+}
+.fylo-container .fylo-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 6rem;
+  flex: 1;
+}
+.fylo-container .fylo-intro__heading {
+  margin-bottom: 1rem;
+}
+.fylo-container .fylo-intro__content {
+  margin-bottom: 2rem;
+}
+.fylo-container__illustration {
+  display: flex;
+  justify-content: center;
+}
+.fylo-container__illustration img {
+  width: 70%;
+}
+
+.fylo-intro__cta {
+  display: flex;
+  gap: 0.5rem;
+}
+.fylo-intro__cta-input {
+  padding: 1rem 3rem 0.7rem 1rem;
+  outline: none;
+  flex: 0 0 50%;
+}
+.fylo-intro__cta-button {
+  background-color: hsl(224deg, 93%, 58%);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 0 6rem;
+  cursor: pointer;
+  box-shadow: 0.5rem 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.fylo-nav__links a {
   font-family: "Raleway", sans-serif;
+  color: hsl(243deg, 87%, 12%);
+}
+
+.fylo-intro__heading {
+  font-family: "Raleway", sans-serif;
+  font-size: 2.5rem;
+  color: hsl(243deg, 87%, 12%);
+}
+
+.fylo-intro__content {
+  font-family: "Open Sans", sans-serif;
+}
+
+.fylo-intro__cta-input {
+  font-family: "Raleway", sans-serif;
+}
+.fylo-intro__cta-button {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=styles.css.map */

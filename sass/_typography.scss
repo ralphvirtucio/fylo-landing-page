@@ -1,13 +1,28 @@
 .fylo-nav__links {
-  font-family: $font-stack-heading;
-  color: $prmry-color-2;
   a {
-    text-decoration: none;
+    font-family: $font-stack-heading;
+    color: $prmry-color-1;
   }
 }
 
-.fylo-main__registration {
-  input {
+.fylo-intro__heading {
+  font-family: $font-stack-heading;
+  font-size: 2.5rem;
+  color: $prmry-color-1;
+}
+
+.fylo-intro__content {
+  font-family: $font-stack-body;
+}
+
+.fylo-intro__cta {
+  &-input {
     font-family: $font-stack-heading;
+  }
+
+  &-button {
+    font-family: $font-stack-heading;
+    font-size: 0.8rem;
+    font-weight: 700;
   }
 }
