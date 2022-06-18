@@ -11,7 +11,7 @@ header {
   }
 }
 
-.fylo-container {
+.container {
   display: flex;
   padding: 3rem 3rem 10rem 3rem;
 
@@ -23,11 +23,6 @@ header {
       width: 100%;
     }
   }
-}
-.second {
-  background-color: $neu-color-1;
-  clip-path: ellipse(90% 70% at 50% 70%);
-  padding: 10rem 3rem 10rem 3rem;
 }
 
 .fylo-intro {
@@ -65,9 +60,39 @@ header {
   }
 }
 
+.second {
+  background-color: $neu-color-1;
+  clip-path: ellipse(90% 70% at 50% 70%);
+  padding: 10rem 3rem 10rem 3rem;
+}
+
 .fylo-testimonials {
   display: flex;
   flex-direction: column;
   color: $prmry-color-1;
   margin: 2rem 0 0 0;
+}
+
+.third {
+  background-color: $prmry-color-2;
+  padding: 6rem 3rem;
+}
+
+.fylo-registration {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  flex: 0 0 50%;
+
+  &__content {
+    max-width: 55ch;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.8rem;
+    flex: 0 0 50%;
+  }
 }
