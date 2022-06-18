@@ -96,3 +96,10 @@ header {
     flex: 0 0 50%;
   }
 }
+
+footer {
+  background-color: $prmry-color-1;
+  padding: 6rem 3rem;
+  display: flex;
+  justify-content: space-around;
+}

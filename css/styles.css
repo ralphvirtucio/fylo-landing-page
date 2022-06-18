@@ -111,6 +111,13 @@ header .fylo-nav__links {
   flex: 0 0 50%;
 }
 
+footer {
+  background-color: hsl(243deg, 87%, 12%);
+  padding: 6rem 3rem;
+  display: flex;
+  justify-content: space-around;
+}
+
 .fylo-intro__cta {
   display: flex;
   gap: 0.5rem;
@@ -252,6 +259,11 @@ header .fylo-nav__links {
   font-family: "Open Sans", sans-serif;
   line-height: 1.5;
   color: hsl(240deg, 75%, 98%);
+}
+
+footer {
+  color: white;
+  font-family: "Open Sans", sans-serif;
 }
 
 /*# sourceMappingURL=styles.css.map */
