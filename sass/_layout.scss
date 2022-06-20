@@ -99,7 +99,9 @@ header {
 
 footer {
   background-color: $prmry-color-1;
-  padding: 6rem 3rem;
+  padding: 10rem 3rem;
+}
+
+.fylo-footer-nav__container {
   display: flex;
-  justify-content: space-around;
 }
