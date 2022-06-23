@@ -1,0 +1,33 @@
+:root {
+  --color-primary-dark-blue: hsl(243, 87%, 12%);
+  --color-primary-desaturated-blue: hsl(238, 22%, 44%);
+
+  --color-accent-bright-blue: hsl(224, 93%, 58%);
+  --color-accent-moderate-cyan: hsl(170, 45%, 43%);
+
+  --color-neutral-grayish-blue: hsl(240, 75%, 98%);
+  --color-neutral-light-gray: hsl(0, 0%, 75%);
+
+  --font-family-headings-cta-header-nav: 'Raleway', sans-serif;
+  --font-weight-headings-cta-header-nav-400: 400;
+  --font-weight-headings-cta-header-nav-700: 700;
+  --font-family-body: 'Open Sans', sans-serif;
+  --font-weight-body: 400;
+}
+
+$bp-small: 767px;
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
