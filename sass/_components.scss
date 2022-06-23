@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   margin-bottom: 5rem;
+  padding: 1.5rem;
 
   &__logo {
     width: 50%;
@@ -23,6 +24,11 @@
       text-decoration: none;
     }
   }
+}
+
+.first {
+  margin-bottom: 4rem;
+  padding: 1.5rem;
 }
 
 .first-section {
@@ -74,4 +80,28 @@
   color: var(--color-neutral-grayish-blue);
   font-family: var(--font-family-headings-cta-header-nav);
   font-weight: var(--font-weight-headings-cta-header-nav-700);
+}
+
+.second {
+  background-image: url('../images/bg-curve-mobile.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  padding: 0;
+  clip-path: ellipse(110% 70% at 50% 70%);
+}
+
+.second-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1.5rem;
+
+  &__illustration {
+    padding-top: 2rem;
+  }
+
+  &__illustration-image {
+    width: 100%;
+  }
 }
