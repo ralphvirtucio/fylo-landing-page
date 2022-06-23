@@ -24,19 +24,57 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <nav class="nav">
-      <div class="nav__logo">
-        <img src="./images/logo.svg" alt="Fylo Logo" />
+    <header class="header">
+      <div class="header__container-logo">
+        <img src="./images/logo.svg" alt="Fylo Logo" class="header__logo" />
       </div>
 
-      <ul class="nav__links">
-        <li>
-          <a href="#">Features</a>
-          <a href="#">Team</a>
-          <a href="#">Sign In</a>
-        </li>
-      </ul>
-    </nav>
+      <nav class="header__nav">
+        <ul class="header__nav-links">
+          <li>
+            <a class="header__nav-link" href="#">Features</a>
+          </li>
+          <li>
+            <a class="header__nav-link" href="#">Team</a>
+          </li>
+          <li>
+            <a class="header__nav-link" href="#">Sign In</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <div class="first-section">
+          <div class="first-section__illustration">
+            <img
+              src="./images/illustration-1.svg"
+              alt="Illustration of a person with a laptop"
+              class="first-section__illustration-image"
+            />
+          </div>
+          <div class="first-section__content">
+            <h1 class="first-section__content-heading">
+              All your files in one secure location, accessible anywhere.
+            </h1>
+            <p class="first-section__content-description">
+              Fylo stores your most important files in one secure location.
+              Access them wherever you need, share and collaborate with friends,
+              family, and co-workers.
+            </p>
+            <div class="cta">
+              <input
+                class="cta__input"
+                type="email"
+                placeholder="Enter your email..."
+              />
+              <button class="btn">Get Started</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <!-- 
   Features
   Team
@@ -44,9 +82,7 @@
 
   All your files in one secure location, accessible anywhere.
 
-  Fylo stores your most important files in one secure location. 
-  Access them wherever you need, share and collaborate with friends, 
-  family, and co-workers.
+ 
 
   Get Started
 
