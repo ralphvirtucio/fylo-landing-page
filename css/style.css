@@ -90,13 +90,77 @@ html {
 
 .third {
   background-color: var(--color-primary-desaturated-blue);
-  padding: 2.5rem;
+  padding: 3rem 2.5rem;
 }
 
 .registration {
   display: flex;
   flex-direction: column;
   text-align: center;
+}
+
+footer {
+  background-color: var(--color-primary-dark-blue);
+  padding: 4rem 2rem;
+  color: #ffffff;
+  font-family: var(--font-family-body);
+}
+footer .footer {
+  display: flex;
+  flex-direction: column;
+}
+footer .footer__logo {
+  margin-bottom: 2rem;
+}
+footer .footer__contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+footer .footer__contact-info span {
+  margin-right: 1rem;
+}
+footer .footer__nav {
+  margin-bottom: 4rem;
+}
+footer .footer__nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.2rem;
+}
+footer .footer__nav li:nth-child(4) {
+  margin-bottom: 1.8rem;
+}
+footer .footer__nav li a {
+  text-decoration: none;
+  color: currentColor;
+}
+footer .footer__social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+footer .footer__social-media .icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border: 1px solid white;
+  border-radius: 100%;
+  width: 15%;
+  padding: 0.5rem;
+}
+footer .footer__social-media svg {
+  fill: white;
+  width: 1rem;
+  height: 1rem;
 }
 
 .header__nav-links {
@@ -235,11 +299,28 @@ html {
 }
 .registration__heading {
   font-family: var(--font-family-headings-cta-header-nav);
+  margin-top: 2rem;
+  margin-bottom: 1.8rem;
 }
 .registration__content {
   font-family: var(--font-family-body);
   font-size: 0.89rem;
   line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+.registration-cta {
+  gap: 0.8rem;
+  margin-bottom: 2rem;
+}
+
+.cta-registration__input {
+  border: none;
+  box-shadow: 1px 1px 0 0 rgba(7, 4, 59, 0.157);
+}
+
+.registration-btn {
+  box-shadow: 1px 1px 0 0 rgba(7, 4, 59, 0.157);
 }
 
 /*# sourceMappingURL=style.css.map */
