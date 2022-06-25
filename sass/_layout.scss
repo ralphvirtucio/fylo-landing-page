@@ -1,3 +1,76 @@
-// body {
-//   padding: 1.5rem;
-// }
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5rem;
+  padding: 1.5rem;
+
+  &__logo {
+    width: 50%;
+  }
+
+  &__nav {
+    flex: 1 1 70%;
+  }
+}
+
+.first {
+  margin-bottom: 4rem;
+  padding: 1.5rem;
+}
+
+.first-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  &__illustration-image {
+    width: 100%;
+  }
+}
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.second {
+  background-image: url('../images/bg-curve-mobile.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  padding: 0;
+  clip-path: ellipse(110% 70% at 50% 70%);
+}
+
+.second-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1.5rem;
+
+  &__illustration {
+    padding-top: 2rem;
+  }
+
+  &__illustration-image {
+    width: 100%;
+  }
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.third {
+  background-color: var(--color-primary-desaturated-blue);
+  padding: 2.5rem;
+}
+
+.registration {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}

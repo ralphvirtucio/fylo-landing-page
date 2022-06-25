@@ -39,17 +39,6 @@ html {
 .header__nav {
   flex: 1 1 70%;
 }
-.header__nav-links {
-  display: flex;
-  list-style: none;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 0.88rem;
-  font-family: var(--font-family-headings-cta-header-nav);
-}
-.header__nav-links a {
-  text-decoration: none;
-}
 
 .first {
   margin-bottom: 4rem;
@@ -64,47 +53,11 @@ html {
 .first-section__illustration-image {
   width: 100%;
 }
-.first-section__content-heading {
-  font-family: var(--font-family-headings-cta-header-nav);
-  font-weight: var(--font-weight-headings-cta-header-nav-700);
-  line-height: 1.5;
-  text-align: center;
-  color: var(--color-primary-dark-blue);
-  margin-bottom: 2rem;
-  font-size: 1.5rem;
-}
-.first-section__content-description {
-  font-family: var(--font-family-body);
-  font-weight: var(--font-weight-body);
-  line-height: 1.5;
-  text-align: center;
-  color: var(--color-primary-dark-blue);
-  margin-bottom: 1.8rem;
-}
 
 .cta {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-}
-.cta__input {
-  padding: 0.8rem 1rem;
-  border-radius: 6px;
-  border: 1px solid var(--color-primary-dark-blue);
-  font-family: var(--font-family-headings-cta-header-nav);
-  outline: none;
-}
-
-.btn {
-  padding: 0.8rem 1rem;
-  background-color: var(--color-accent-bright-blue);
-  border: none;
-  border-radius: 6px;
-  color: var(--color-neutral-grayish-blue);
-  font-family: var(--font-family-headings-cta-header-nav);
-  font-weight: var(--font-weight-headings-cta-header-nav-700);
-  box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.15);
-  font-size: 0.88rem;
 }
 
 .second {
@@ -128,6 +81,74 @@ html {
 .second-section__illustration-image {
   width: 100%;
 }
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.third {
+  background-color: var(--color-primary-desaturated-blue);
+  padding: 2.5rem;
+}
+
+.registration {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.header__nav-links {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.88rem;
+  font-family: var(--font-family-headings-cta-header-nav);
+}
+.header__nav-links a {
+  text-decoration: none;
+}
+
+.first-section__content-heading {
+  font-family: var(--font-family-headings-cta-header-nav);
+  font-weight: var(--font-weight-headings-cta-header-nav-700);
+  line-height: 1.5;
+  text-align: center;
+  color: var(--color-primary-dark-blue);
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+.first-section__content-description {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-body);
+  line-height: 1.5;
+  text-align: center;
+  color: var(--color-primary-dark-blue);
+  margin-bottom: 1.8rem;
+}
+
+.cta__input {
+  padding: 0.8rem 1rem;
+  border-radius: 6px;
+  border: 1px solid var(--color-primary-dark-blue);
+  font-family: var(--font-family-headings-cta-header-nav);
+  outline: none;
+}
+
+.btn {
+  padding: 0.8rem 1rem;
+  background-color: var(--color-accent-bright-blue);
+  border: none;
+  border-radius: 6px;
+  color: var(--color-neutral-grayish-blue);
+  font-family: var(--font-family-headings-cta-header-nav);
+  font-weight: var(--font-weight-headings-cta-header-nav-700);
+  box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.15);
+  font-size: 0.88rem;
+}
+
 .second-section__content {
   text-align: center;
 }
@@ -173,6 +194,52 @@ html {
 .second-section .see-how__icon-arrow {
   display: flex;
   align-items: center;
+}
+
+.testimonial {
+  color: var(--color-primary-dark-blue);
+  font-family: var(--font-family-body);
+  box-shadow: 0 0 0 0 rgba(56, 56, 56, 0.0459);
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: start;
+}
+.testimonial__content {
+  font-size: 0.65rem;
+  margin-bottom: 1rem;
+  line-height: 2;
+  max-width: 40ch;
+}
+
+.profile__photo {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+.profile__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.profile__name {
+  font-size: 0.6rem;
+  font-weight: bold;
+}
+.profile__title {
+  font-size: 0.4rem;
+}
+
+.registration {
+  color: #ffffff;
+}
+.registration__heading {
+  font-family: var(--font-family-headings-cta-header-nav);
+}
+.registration__content {
+  font-family: var(--font-family-body);
+  font-size: 0.89rem;
+  line-height: 1.5;
 }
 
 /*# sourceMappingURL=style.css.map */
