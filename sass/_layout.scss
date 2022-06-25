@@ -87,6 +87,10 @@ footer {
 
     &__logo {
       margin-bottom: 2rem;
+
+      * {
+        fill: #ffff;
+      }
     }
 
     &__contact-info {
