@@ -155,11 +155,28 @@
   color: #ffffff;
   &__heading {
     font-family: var(--font-family-headings-cta-header-nav);
+    margin-top: 2rem;
+    margin-bottom: 1.8rem;
   }
 
   &__content {
     font-family: var(--font-family-body);
     font-size: 0.89rem;
     line-height: 1.5;
+    margin-bottom: 2rem;
   }
+}
+
+.registration-cta {
+  gap: 0.8rem;
+  margin-bottom: 2rem;
+}
+
+.cta-registration__input {
+  border: none;
+  box-shadow: 1px 1px 0 0 rgba(7, 4, 59, 0.157);
+}
+
+.registration-btn {
+  box-shadow: 1px 1px 0 0 rgba(7, 4, 59, 0.157);
 }
