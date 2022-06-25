@@ -112,6 +112,9 @@ footer .footer {
 footer .footer__logo {
   margin-bottom: 2rem;
 }
+footer .footer__logo * {
+  fill: white;
+}
 footer .footer__contact-info {
   display: flex;
   flex-direction: column;
