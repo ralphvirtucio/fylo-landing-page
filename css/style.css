@@ -271,6 +271,7 @@ footer .footer__social-media svg {
   padding: 1rem;
   border-radius: 8px;
   text-align: start;
+  width: max-content;
 }
 .testimonial__content {
   font-size: 0.65rem;
