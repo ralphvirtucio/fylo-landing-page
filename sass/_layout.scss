@@ -4,12 +4,20 @@
   margin-bottom: 5rem;
   padding: 1.5rem;
 
+  @media only screen and (min-width: $bp-smallest) {
+    justify-content: space-between;
+  }
+
   &__logo {
     width: 50%;
   }
 
   &__nav {
     flex: 1 1 70%;
+
+    @media only screen and (min-width: $bp-smallest) {
+      flex: 0 0 40%;
+    }
   }
 }
 
@@ -22,6 +30,10 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
+
+  @media only screen and (min-width: $bp-small) {
+    flex-direction: row-reverse;
+  }
 
   &__illustration-image {
     width: 100%;
@@ -49,6 +61,10 @@
   gap: 2rem;
   padding: 1.5rem;
 
+  @media only screen and (min-width: $bp-small) {
+    flex-direction: row-reverse;
+  }
+
   &__illustration {
     padding-top: 2rem;
   }
@@ -73,6 +89,10 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+
+  @media only screen and (min-width: $bp-small) {
+    flex-direction: row;
+  }
 }
 
 footer {
@@ -84,6 +104,11 @@ footer {
   .footer {
     display: flex;
     flex-direction: column;
+
+    @media only screen and (min-width: $bp-small) {
+      align-items: center;
+      justify-content: center;
+    }
 
     &__logo {
       margin-bottom: 2rem;
@@ -133,14 +158,16 @@ footer {
       gap: 1rem;
 
       .icon-container {
+        text-align: center;
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 0.5rem;
-        border: 1px solid #ffff;
+        border: 1px solid white;
         border-radius: 100%;
-        width: 15%;
+        width: 3rem;
         padding: 0.5rem;
+        height: 3rem;
       }
 
       svg {
