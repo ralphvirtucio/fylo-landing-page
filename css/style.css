@@ -190,12 +190,22 @@ html {
     text-align: start;
   }
 }
+@media only screen and (min-width: 1440px) {
+  .registration {
+    margin-left: 5rem;
+  }
+}
 
 footer {
   background-color: var(--color-primary-dark-blue);
   padding: 4rem 2rem;
   color: #ffffff;
   font-family: var(--font-family-body);
+}
+@media only screen and (min-width: 1440px) {
+  footer {
+    padding: 5rem;
+  }
 }
 footer .footer {
   display: flex;
@@ -254,6 +264,23 @@ footer .footer__nav ul {
     column-gap: 2rem;
   }
 }
+@media only screen and (min-width: 1440px) {
+  footer .footer__nav ul {
+    padding: 4.5rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    column-gap: 12rem;
+  }
+}
+footer .footer__nav li:nth-child(2) {
+  grid-row: 2;
+}
+footer .footer__nav li:nth-child(3) {
+  grid-row: 3;
+}
+footer .footer__nav li:nth-child(4) {
+  grid-row: 4;
+}
 footer .footer__nav li:nth-child(4) {
   margin-bottom: 1.8rem;
 }
@@ -266,11 +293,19 @@ footer .footer__nav li a {
   text-decoration: none;
   color: currentColor;
 }
+footer .footer__nav li a:hover {
+  color: #6c9bff;
+}
 footer .footer__social-media {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 1rem;
+}
+@media only screen and (min-width: 1440px) {
+  footer .footer__social-media {
+    padding-right: 10rem;
+  }
 }
 footer .footer__social-media .icon-container {
   text-align: center;
@@ -284,10 +319,17 @@ footer .footer__social-media .icon-container {
   padding: 0.5rem;
   height: 3rem;
 }
+footer .footer__social-media .icon-container:hover {
+  border: 1px solid #6c9bff;
+  fill: #6c9bff;
+}
 footer .footer__social-media svg {
   fill: white;
   width: 1rem;
   height: 1rem;
+}
+footer .footer__social-media svg:hover {
+  fill: #6c9bff;
 }
 
 .header__nav-links {
@@ -304,6 +346,9 @@ footer .footer__social-media svg {
 }
 .header__nav-links a {
   text-decoration: none;
+}
+.header__nav-links a:hover {
+  color: #6c9bff;
 }
 
 .first-section__content-heading {
@@ -354,6 +399,10 @@ footer .footer__social-media svg {
   font-weight: var(--font-weight-headings-cta-header-nav-700);
   box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.15);
   font-size: 0.88rem;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #6c9bff;
 }
 
 .second-section__content {
@@ -501,6 +550,12 @@ footer .footer__social-media svg {
   line-height: 1.5;
   margin-bottom: 2rem;
 }
+@media only screen and (min-width: 1440px) {
+  .registration__content {
+    width: 66.8ch;
+    font-size: 1rem;
+  }
+}
 
 .registration-cta {
   gap: 0.8rem;
@@ -515,10 +570,21 @@ footer .footer__social-media svg {
 .cta-registration__input {
   border: none;
   box-shadow: 1px 1px 0 0 rgba(7, 4, 59, 0.157);
+  margin-bottom: 0.8rem;
+}
+@media only screen and (min-width: 1440px) {
+  .cta-registration__input {
+    width: 80%;
+  }
 }
 
 .registration-btn {
   box-shadow: 1px 1px 0 0 rgba(7, 4, 59, 0.157);
+}
+@media only screen and (min-width: 1440px) {
+  .registration-btn {
+    width: 30%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
