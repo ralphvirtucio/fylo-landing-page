@@ -91,12 +91,29 @@
 
       &::after {
         content: '';
-        width: 40%;
+        width: 41.7%;
         height: 5%;
         position: absolute;
         background-color: var(--color-accent-moderate-cyan);
         top: 25px;
-        right: 106px;
+        right: 30%;
+
+        @media only screen and (min-width: $bp-smallest) {
+          // right: 160px;
+          // width: 30%;
+          right: 35%;
+          width: 30.6%;
+        }
+        @media only screen and (min-width: $bp-small) {
+          // right: 70px;
+          // width: 140px;
+          right: 26.8%;
+          width: 48.6%;
+        }
+        @media only screen and (min-width: $bp-medium) {
+          right: 34%;
+          width: 32.7%;
+        }
       }
     }
     &-see-how {
@@ -172,6 +189,10 @@
 .registration-cta {
   gap: 0.8rem;
   margin-bottom: 2rem;
+
+  @media only screen and (min-width: $bp-small) {
+    flex: 1;
+  }
 }
 
 .cta-registration__input {
