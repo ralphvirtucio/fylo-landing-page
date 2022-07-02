@@ -238,6 +238,7 @@ footer .footer__contact-info {
   flex-direction: column;
   justify-content: center;
   gap: 1rem;
+  margin-top: 1.5rem;
   margin-bottom: 2rem;
 }
 footer .footer__contact-info span {
