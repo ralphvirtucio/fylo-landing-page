@@ -35,7 +35,7 @@ html {
 }
 @media only screen and (min-width: 1440px) {
   .header {
-    padding: 2.5rem;
+    padding: 3.5rem;
   }
 }
 @media only screen and (min-width: 500px) {
@@ -72,7 +72,7 @@ html {
 }
 @media only screen and (min-width: 1440px) {
   .first {
-    padding: 2.5rem;
+    padding: 3.5rem;
   }
 }
 
@@ -584,7 +584,7 @@ footer .footer__social-media svg:hover {
 }
 @media only screen and (min-width: 1440px) {
   .registration-btn {
-    width: 30%;
+    width: 35%;
   }
 }
 
