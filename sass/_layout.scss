@@ -4,12 +4,21 @@
   margin-bottom: 5rem;
   padding: 1.5rem;
 
+  @media only screen and (min-width: $bp-large) {
+    padding: 2.5rem;
+  }
+
   @media only screen and (min-width: $bp-smallest) {
     justify-content: space-between;
+    align-items: center;
   }
 
   &__logo {
     width: 50%;
+
+    @media only screen and (min-width: $bp-large) {
+      width: 100%;
+    }
   }
 
   &__nav {
@@ -18,12 +27,20 @@
     @media only screen and (min-width: $bp-smallest) {
       flex: 0 0 40%;
     }
+
+    @media only screen and (min-width: $bp-medium) {
+      flex: 0 0 25%;
+    }
   }
 }
 
 .first {
   margin-bottom: 4rem;
   padding: 1.5rem;
+
+  @media only screen and (min-width: $bp-large) {
+    padding: 2.5rem;
+  }
 }
 
 .first-section {
@@ -34,9 +51,27 @@
   @media only screen and (min-width: $bp-small) {
     flex-direction: row-reverse;
   }
+  @media only screen and (min-width: $bp-large) {
+    gap: 4rem;
+    align-items: center;
+  }
 
   &__illustration-image {
     width: 100%;
+  }
+
+  @media only screen and (min-width: $bp-large) {
+    .cta {
+      flex-direction: row;
+
+      &__input {
+        flex: 0 0 60%;
+      }
+    }
+
+    .btn {
+      flex: 0 0 30%;
+    }
   }
 }
 
@@ -53,6 +88,10 @@
   background-position: top;
   padding: 0;
   clip-path: ellipse(110% 70% at 50% 70%);
+
+  @media only screen and (min-width: $bp-small) {
+    padding-top: 2.5rem;
+  }
 }
 
 .second-section {
@@ -63,10 +102,20 @@
 
   @media only screen and (min-width: $bp-small) {
     flex-direction: row-reverse;
+    align-items: center;
+  }
+  @media only screen and (min-width: $bp-large) {
+    flex-direction: row-reverse;
+    padding: 3rem;
+    gap: 12rem;
   }
 
   &__illustration {
     padding-top: 2rem;
+
+    @media only screen and (min-width: $bp-large) {
+      width: 50%;
+    }
   }
 
   &__illustration-image {
@@ -83,6 +132,15 @@
 .third {
   background-color: var(--color-primary-desaturated-blue);
   padding: 3rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+
+  @media only screen and (min-width: $bp-small) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+  }
 }
 
 .registration {
@@ -91,7 +149,8 @@
   text-align: center;
 
   @media only screen and (min-width: $bp-small) {
-    flex-direction: row;
+    flex: 0 0 50%;
+    text-align: start;
   }
 }
 
@@ -107,11 +166,22 @@ footer {
 
     @media only screen and (min-width: $bp-small) {
       align-items: center;
-      justify-content: center;
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 4rem;
+    }
+
+    &__info-container {
+      @media only screen and (min-width: $bp-small) {
+        display: flex;
+        flex-direction: column;
+      }
     }
 
     &__logo {
-      margin-bottom: 2rem;
+      @media only screen and (min-width: $bp-small) {
+        margin-bottom: 1rem;
+      }
 
       * {
         fill: #ffff;
@@ -130,19 +200,32 @@ footer {
     }
 
     &__nav {
-      margin-bottom: 4rem;
       ul {
         margin: 0;
         padding: 0;
         list-style: none;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr;
         gap: 1.2rem;
+
+        @media only screen and (min-width: $bp-small) {
+          grid-template-columns: 1fr 1fr;
+          gap: 1.5rem;
+        }
+
+        @media only screen and (min-width: $bp-medium) {
+          grid-template-columns: 1fr 1fr 1fr;
+          row-gap: 1.5rem;
+          column-gap: 2rem;
+        }
       }
 
       li:nth-child(4) {
         margin-bottom: 1.8rem;
+
+        @media only screen and (min-width: $bp-small) {
+          margin-bottom: 0;
+        }
       }
 
       li a {
